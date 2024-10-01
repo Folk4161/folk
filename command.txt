@@ -1,14 +1,7 @@
-docker ps
-docker ps --all
-docker run busybox ping google.com
-docker exec -it 1872dc8f2162 bash
-docker run -p 80:80 nginx
-docker run -p 9000:80 nginx
-http://localhost:9000/
-docker run --name mynginx -d -p 3000:80 nginx
-docker logs 
-docker logs -f
-docker system info
-docker system df
-docker images
-docker image inspect nginx
+docker pull imsuriyapi/todo-app:v4
+kubectl apply -f .\sample-pod.yml
+kubectl get all
+kubectl delete all --all
+kubectl get pods
+kubectl delete pods client-deployment-7bbddb576-72j8d
+kubectl delete deployments client-deployment
